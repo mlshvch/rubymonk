@@ -118,4 +118,13 @@ def heapify(array, parent, limit)
     end
 end
 
+# binary - O(log(n))
+# linear - O(n)
+# quick - O(nlog(n))
+# merge - O(nlog(n))
+# bubble - O(n^2)
+# inserts - O(n^2)
+# choose - O(n^2)
+
+
 p [1,2,4,8].bsearch {|x| x >= 1}
